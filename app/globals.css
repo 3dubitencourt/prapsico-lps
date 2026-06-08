@@ -2,22 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    @apply bg-navy-950;
+  }
+  body {
+    @apply bg-navy-950 text-ink min-h-screen;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .eyebrow {
+    @apply text-[11px] tracking-[0.18em] uppercase font-medium text-cyan;
+  }
+  .container-lp {
+    @apply mx-auto w-full max-w-[75rem] px-4;
+  }
 }
 
 @layer utilities {
