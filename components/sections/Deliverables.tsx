@@ -5,7 +5,7 @@ const items: Array<{ icon: LucideIcon; title: string; desc: string }> = [
   {
     icon: Video,
     title: "Acesso à live ao vivo",
-    desc: "8/jun às 19h no Zoom + Q&A aberto",
+    desc: "13/jul às 19h no Zoom + Q&A aberto",
   },
   {
     icon: MessagesSquare,
