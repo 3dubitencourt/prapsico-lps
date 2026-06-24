@@ -9,7 +9,7 @@ export function FinalCTA({ checkoutUrl }: Props) {
       <div className="container-lp max-w-2xl">
         <p className="eyebrow mb-5 md:mb-8 flex items-center justify-center gap-2">
           <Calendar className="w-4 h-4 text-cyan" strokeWidth={1.75} />
-          8 DE JUNHO · 19H · ZOOM · 90 MINUTOS
+          13 DE JULHO · 19H · ZOOM · 90 MINUTOS
         </p>
         <h2 className="text-2xl md:text-5xl font-bold leading-tight mb-8 md:mb-14 text-balance">
           Garante sua vaga e{" "}
