@@ -26,7 +26,7 @@ export function Hero({ checkoutUrl }: Props) {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-cyan" />
             </span>
             <span className="text-[11px] lg:text-xs tracking-[0.18em] uppercase font-medium text-cyan">
-              Aula ao vivo · 8 de junho, às 19h
+              Aula ao vivo · 10 de junho, às 19h
             </span>
           </div>
 
@@ -68,7 +68,7 @@ export function Hero({ checkoutUrl }: Props) {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-cyan" />
             </span>
             <span className="text-[10px] tracking-[0.16em] uppercase font-medium text-cyan">
-              Ao vivo · 8 de junho, 19h
+              Ao vivo · 10 de junho, 19h
             </span>
           </div>
           <h1 className="mt-4 text-2xl sm:text-3xl font-bold leading-[1.15] tracking-tight text-center text-balance">
