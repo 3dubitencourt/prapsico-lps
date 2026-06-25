@@ -12,7 +12,7 @@ export function FinalCTA({ checkoutUrl }: Props) {
           8 DE JUNHO · 19H · ZOOM · 90 MINUTOS
         </p>
         <h2 className="text-2xl md:text-5xl font-bold leading-tight mb-8 md:mb-14 text-balance">
-          Garante sua vaga e{" "}
+          Garante sua vaga e hoje{" "}
           <em className="font-serif italic text-cyan font-normal">entra na live</em>
         </h2>
         <CTAPrimary href={checkoutUrl} size="lg" />
