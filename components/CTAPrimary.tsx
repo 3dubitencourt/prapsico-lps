@@ -24,7 +24,7 @@ export function CTAPrimary({ href, size = "md", className }: Props) {
         className,
       )}
     >
-      GARANTIR MINHA VAGA · R$ 37
+      GARANTIR MINHA VAGA · R$ 38
       <span aria-hidden>→</span>
     </a>
   );
