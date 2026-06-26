@@ -57,7 +57,7 @@ KOMMO_SUBDOMAIN=psicoeducacao
 KOMMO_ACCESS_TOKEN=<o token longo>
 ```
 
-**O que acontece quando um lead chega:**
+**O que acontecem quando um lead chega:**
 
 - Cria Lead `Lead · {source}` no Kommo
 - Cria Contato com `first_name`, `last_name`, `phone` (formatado 55…), `email`
